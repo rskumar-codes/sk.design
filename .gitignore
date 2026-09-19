@@ -1,25 +1,8 @@
-node_modules/
-dist/
-build/
-.cache/
-.env*
-.vite/
-vite.config.*.timestamp-*
-*.tsbuildinfo
-*-debug.log*
-logs/
-*.log
-.claude-replay.*
-.tmp-*
-/.figma/design-context/
-.figma/
-CLAUDE.md
-AGENTS.md
-.mise.toml
+# Ignore absolutely everything in the project root
+*
 
-# Platform-managed agentplat state, not project source. In the
-# client-initiated single-repo workspace layout (make's `Path: "."` spec) the
-# repo root IS the workspace root, so these land inside this repo rather than
-# beside it.
-/.plugins/
-/.opencode-skills/
+# Do not ignore the dist folder
+!dist/
+
+# Do not ignore this .gitignore file itself (optional, but recommended)
+!.gitignore
