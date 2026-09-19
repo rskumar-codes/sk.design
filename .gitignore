@@ -1,8 +1,9 @@
-# Ignore absolutely everything in the project root
+# Ignore everything in the project
 *
 
-# Do not ignore the dist folder
+# Allow the dist folder itself and everything inside it
 !dist/
+!dist/**
 
-# Do not ignore this .gitignore file itself (optional, but recommended)
+# Allow the .gitignore file
 !.gitignore
