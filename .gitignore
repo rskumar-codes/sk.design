@@ -5,5 +5,8 @@
 !dist/
 !dist/**
 
+# Explicitly ignore any .tar.gz files inside the dist folder
+dist/*.tar.gz
+
 # Allow the .gitignore file
 !.gitignore
