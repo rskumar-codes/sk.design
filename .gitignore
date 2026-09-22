@@ -1,9 +1,10 @@
 # Ignore everything in the project
 *
 
-# Allow the dist folder itself and everything inside it
+# Allow the README.md, dist folder itself and everything inside it
 !dist/
 !dist/**
+# !README.md
 
 # Explicitly ignore any .tar.gz files inside the dist folder
 dist/*.tar.gz
